@@ -18,14 +18,17 @@ body{
     background-color: black;
 }
 .input{
-    padding: 19px 0px;
+    padding: 19px 2px;
     font-size: 17px;
     background-color: #27252b;
     color: white;
     font-weight: bold;
+    border: 1px solid #27252b;
+    border-radius: 10px 10px 0px 0px;
 }
 .btnZero{
     width: 115px;
+    border-radius: 0px 0px 0px 10px;
 }
 .grey-color{
     background-color: #3d3c42;
@@ -44,4 +47,7 @@ body{
     border: 1px solid #5c5c61;
     font-weight: bold;
     color: white;
+}
+.btn-equall{
+    border-radius: 0px 0px 10px 0px;
 }
