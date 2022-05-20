@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 .div-center{
     display: flex;
     flex-direction: column;
@@ -26,16 +29,19 @@
 }
 .grey-color{
     background-color: #3d3c42;
+    border: 1px solid #3d3c42;
     font-weight: bold;
     color: white;
 }
 .yellow-color{
     background-color: #f0a23c;
+    border: 1px solid #f0a23c;
     font-weight: bold;
     color: white;
 }
 .light-grey-color{
     background-color: #5c5c61;
+    border: 1px solid #5c5c61;
     font-weight: bold;
     color: white;
 }
