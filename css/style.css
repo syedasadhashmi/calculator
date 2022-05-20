@@ -1,3 +1,41 @@
-body{
-    background-color: aqua;
+*{
+    box-sizing: border-box;
+}
+.div-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    padding: 19px;
+    cursor: pointer;
+    width: 55px;
+}
+.bg-color{
+    background-color: black;
+}
+.input{
+    padding: 19px 0px;
+    font-size: 17px;
+    background-color: #27252b;
+    color: white;
+    font-weight: bold;
+}
+.btnZero{
+    width: 115px;
+}
+.grey-color{
+    background-color: #3d3c42;
+    font-weight: bold;
+    color: white;
+}
+.yellow-color{
+    background-color: #f0a23c;
+    font-weight: bold;
+    color: white;
+}
+.light-grey-color{
+    background-color: #5c5c61;
+    font-weight: bold;
+    color: white;
 }
