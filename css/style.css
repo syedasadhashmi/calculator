@@ -1,23 +1,28 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: black;
 }
-.div-center{
+
+.div-center {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.btn{
+
+.btn {
     padding: 19px;
     cursor: pointer;
     width: 55px;
 }
-.bg-color{
+
+.bg-color {
     background-color: black;
 }
-.input{
+
+.input {
     padding: 19px 2px;
     font-size: 17px;
     background-color: #27252b;
@@ -26,28 +31,33 @@ body{
     border: 1px solid #27252b;
     border-radius: 10px 10px 0px 0px;
 }
-.btnZero{
+
+.btnZero {
     width: 115px;
     border-radius: 0px 0px 0px 10px;
 }
-.grey-color{
+
+.grey-color {
     background-color: #3d3c42;
     border: 1px solid #3d3c42;
     font-weight: bold;
     color: white;
 }
-.yellow-color{
+
+.yellow-color {
     background-color: #f0a23c;
     border: 1px solid #f0a23c;
     font-weight: bold;
     color: white;
 }
-.light-grey-color{
+
+.light-grey-color {
     background-color: #5c5c61;
     border: 1px solid #5c5c61;
     font-weight: bold;
     color: white;
 }
-.btn-equall{
+
+.btn-equall {
     border-radius: 0px 0px 10px 0px;
 }
